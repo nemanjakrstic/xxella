@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     return (
         <div className="bg-green-600 w-screen h-screen flex items-center justify-center">
             <div className="text-3xl font-bold text-white flex space-x-4 items-center">
-                <button onClick={() => setCounter(counter + 1)} className="bg-red-600 p-4 rounded-xl">
+                <button onClick={() => setCounter(counter - 1)} className="bg-red-600 p-4 rounded-xl">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"
